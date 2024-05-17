@@ -1,0 +1,54 @@
+* {
+    margin: none;
+    padding: 0;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    background-color: rgba(207, 163, 255, 0.689);
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(44, 105, 143);
+}
+header +p {
+    background-color: blue;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+a:visited {
+   color: rgb(3, 144, 3);
+}
+a:hover {
+    background-color: yellow;
+  }
+
+  
+  
+
+p {
+    padding: 5px;
+}
+
+li > ol {
+    background-color: black;
+}
+
+ul {
+    font-size: 15px;
+    list-style-type: square;
+    padding-left: 40px;
+
+
+    
+}
+ol {
+    list-style-type: lower-roman;
+    padding-left: 50px;
+}
