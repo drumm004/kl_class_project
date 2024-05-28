@@ -1,6 +1,7 @@
 body {
     background-image: url(../images/tall-library.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -11,4 +12,43 @@ h1 {
 
 }
 
-.
+.container-fluid {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.row {
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    
+    
+
+}
+
+.logo {
+    height: 75px;
+    background-image: url(../images/vecteezy_book-logo-vector-and-illustration-education-icon_26563633.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+}
+
+.title {
+    align-self: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.nav {
+    justify-content: right;
+    align-self: center;
+}
